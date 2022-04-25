@@ -25,7 +25,7 @@ while game:
     #     pg.draw.line(window, (0, 0, 0), (int(w/m*i), 0), (int(w/m*i), h))
 
     if not pause:
-        a = tick3(a, n, m)
+        a = tick(a, n, m)
 
     if drawing:
         x, y = pg.mouse.get_pos()
@@ -37,14 +37,14 @@ while game:
 
     for i in range(n):
         for j in range(m):
-            # if a[i][j] == 1:
-            #     pg.draw.rect(window, (50, 200, 50), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
             if a[i][j] == 1:
-                pg.draw.rect(window, (250, 0, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
-            if a[i][j] == 2:
-                pg.draw.rect(window, (250, 150, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
-            if a[i][j] == 3:
-                pg.draw.rect(window, (200, 200, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
+                pg.draw.rect(window, (50, 200, 50), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
+            # if a[i][j] == 1:
+            #     pg.draw.rect(window, (250, 0, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
+            # if a[i][j] == 2:
+            #     pg.draw.rect(window, (250, 150, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
+            # if a[i][j] == 3:
+            #     pg.draw.rect(window, (200, 200, 0), (w/m*j+1, h/n*i+1, w/m-1, h/n-1))
 
     pg.display.flip()
 

@@ -45,9 +45,9 @@ def generate(n, m):
     # for k in range(n1):
     #     a[n1//2][k], a[k][n1//2] = 1, 1
 
-    # n1 = min(n, m)
-    # for k in range(0, n1):
-    #     a[k][k], a[k][n1-k-1] = 1, 1
+    n1 = min(n, m)
+    for k in range(0, n1):
+        a[k][k], a[k][n1-k-1] = 1, 1
 
     # for i in range(0, n, 3):
     #     for j in range(0, m, 3):
@@ -55,10 +55,10 @@ def generate(n, m):
     #
     # a[n//2+2][m//2+1] = 1
 
-    from random import randint
-    for i in range(0, n):
-        for j in range(0, m):
-            a[i][j] = randint(1, 3)
+    # from random import randint
+    # for i in range(0, n):
+    #     for j in range(0, m):
+    #         a[i][j] = randint(1, 3)
 
     # for i in range(0, n):
     #     for j in range(0, m):
