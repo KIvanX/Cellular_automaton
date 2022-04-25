@@ -2,4 +2,4 @@
 
 ![Скриншот](https://github.com/KIvanX/Cellular_automaton/raw/master/screenshot.png)
 
-![Скриншот](https://github.com/KIvanX/Cellular_automaton/raw/master/screenshot2.png)
+![Скриншот](https://github.com/KIvanX/Cellular_automaton/raw/master/screenshot1.png)
