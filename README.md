@@ -1,4 +1,4 @@
-Клеточный автомат. Для ускорения рассчетов используется библиотека Numba.
+Клеточный автомат.
 
 ![Скриншот](https://github.com/KIvanX/Cellular_automaton/raw/master/screenshot.png)
 
